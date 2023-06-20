@@ -107,11 +107,10 @@ function Users() {
         <th scope="col">${element.name}</th>
         <td scope="col">${element.username}</td>   
         <td scope="col">${element.email}</td>      
-        <th scope="col">${element.address}</th>      
-        <th scope="col">${element.street}</th>      
-        <th scope="col">${element.suite}</th>      
-        <th scope="col">${element.city}</th>      
-        <th scope="col">${element.zipcode}</th>      
+        <th scope="col">${element.address.street}</th>      
+        <th scope="col">${element.address.suite}</th>      
+        <th scope="col">${element.address.city}</th>      
+        <th scope="col">${element.address.zipcode}</th>      
         <th scope="col">${element.geo}</th>      
         <th scope="col">${element.lat}</th>      
         <th scope="col">${element.lng}</th>      
